@@ -1,6 +1,6 @@
 <template>
       <header>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light">
             <nav class="navbar">
                 <a class="navbar-brand" href="#">
                     
@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
     header{
-        background-color: #2e3a46;
+        background-color: #2E3A46;
         padding: 0 1rem;
         a{
             width: 4rem;

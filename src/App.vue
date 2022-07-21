@@ -3,7 +3,7 @@
     <Header1 />
 
     <main>
-      <DiscList />
+      <DiscAlbum />
     </main>
 
   </div>   
@@ -12,8 +12,8 @@
 
 <script>
 import Header1 from './components/Header.vue'
-import DiskAlbum from './components/DiskAlbum.vue'
-import DiskCard from './components/DiskCard.vue'
+import DiscAlbum from './components/DiscAlbum.vue'
+import DiscCard from './components/DiscCard.vue'
 
 
 
@@ -21,9 +21,9 @@ export default {
   name: 'App',
   components: {
     Header1,
-    DiskAlbum,
-    DiskCard,
-    
+    DiscAlbum,
+    DiscCard,
+
 }
 }
 </script>
