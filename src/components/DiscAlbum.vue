@@ -1,6 +1,6 @@
 <template>
-    <div id="disc-album">
-        <div class="disc-card-box mt-4 mb-5">
+    <div id="disc-album" >
+        <div class="disc-card-box mt-4 mb-5" v-if="albumsList">
             <DiscCard 
             v-for="(element, index) in albumsList"
             :key="index"
@@ -10,7 +10,14 @@
             :year="element.year"
             />
 
+
         </div>
+
+        <div class="loader position-absolute top-50 start-50 translate-middle" v-else>
+        <h3>Caricamento in corso...</h3>
+        </div>
+
+       
      
     </div>
 </template>
@@ -32,7 +39,7 @@ export default {
     },
 
     created(){
-        this.apiGetAlbums()
+        setTimeout(this.apiGetAlbums, 3000);
     },
     
     methods: {
