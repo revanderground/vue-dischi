@@ -3,7 +3,7 @@
         <nav class="navbar navbar-light bg-light">
             <nav class="navbar">
                 <a class="navbar-brand" href="#">
-                    <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+                    
                     <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" alt="">
                 </a>
             </nav>
